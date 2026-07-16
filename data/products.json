@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Mini Vacuum Cleaner",
+    "description": "Perfect for keyboards and desks.",
+    "rating": 4.8,
+    "button": "View on Amazon",
+    "image": "assets/products/vacuum.jpg",
+    "url": "https://amazon.com"
+  }
+]
