@@ -79,3 +79,43 @@ body{
     padding:14px 22px;
     border-radius:12px;
 }
+.badge{
+    display:inline-block;
+    background:#111;
+    color:#fff;
+    padding:10px 18px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:56px;
+    line-height:1.1;
+    max-width:800px;
+    margin:0 auto 20px;
+}
+
+.hero p{
+    max-width:650px;
+    margin:0 auto 35px;
+    color:#666;
+    font-size:20px;
+    line-height:1.6;
+}
+
+.hero-button{
+    display:inline-block;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    padding:16px 32px;
+    border-radius:14px;
+    font-weight:600;
+    transition:.25s;
+}
+
+.hero-button:hover{
+    transform:translateY(-2px);
+}
