@@ -1,24 +1,44 @@
-async function loadProducts() {
-    const response = await fetch("data/products.json");
-    const products = await response.json();
+const container = document.getElementById("products");
 
-    const container = document.getElementById("products");
 
-    products.forEach(product => {
-        container.innerHTML += `
-            <div class="card">
-                <img src="${product.image}" alt="${product.title}">
-                <div class="info">
-                    <h2>${product.title}</h2>
-                    <p>${product.description}</p>
-                    <div class="rating">⭐ ${product.rating}</div>
-                    <a class="button" href="${product.url}" target="_blank" rel="noopener noreferrer">
-                        ${product.button}
-                    </a>
-                </div>
-            </div>
-        `;
-    });
-}
+fetch("data/products.json")
+.then(response => response.json())
+.then(products => {
 
-loadProducts();
+
+products.forEach(product => {
+
+
+container.innerHTML += `
+
+<div class="card">
+
+<img src="${product.image}">
+
+
+<div class="info">
+
+<h2>${product.name}</h2>
+
+<div class="price">
+${product.price}
+</div>
+
+
+<a class="button" href="${product.link}">
+🛒 Comprar
+</a>
+
+
+</div>
+
+</div>
+
+
+`;
+
+
+});
+
+
+});
