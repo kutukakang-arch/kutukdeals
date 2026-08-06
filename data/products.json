@@ -1,8 +1,10 @@
 [
   {
-    "title": "CeraVe Foaming Facial Cleanser, Face Wash for Oily Skin, 19oz | Skin Care with Hyaluronic Acid & Niacinamide, Makeup Remover, Daily Face Wash For Men & Women, Fragrance Free, Oil Control",
+    "title": "CeraVe Foaming Facial Cleanser, Face Wash for Oily Skin, 19oz",
+    "description": "Skin Care with Hyaluronic Acid & Niacinamide, Makeup Remover, Daily Face Wash For Men & Women, Fragrance Free, Oil Control",
+    "rating": 4.8,
     "button": "View on Amazon",
-    "image": "assets/products/vacuum.jpg",
+    "image": "cerave-foaming-facial-cleanser.jpg",
     "url": "https://amzn.to/4wyPG5b"
   }
 ]
